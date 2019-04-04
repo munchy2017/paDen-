@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Tap the emrgency type you are in need of bellow and get help instantly, Enjoy the convinience!!"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView11"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:text="Ambulance"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView8"
+        android:layout_centerHorizontal="true"
+        android:text="Fire"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/rounded_corner"
+        app:srcCompat="@drawable/fire" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@drawable/rounded_corner"
+        app:srcCompat="@drawable/police" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView24"
+        android:layout_alignStart="@+id/textView24"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/rounded_corner"
+        app:srcCompat="@drawable/amb" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView10"
+        android:layout_alignStart="@+id/imageView10"
+        android:layout_alignTop="@+id/textView25"
+        android:text="Police"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cc"
+    tools:context="com.example.prosp.paden.miGate.mainGate">
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/visitors"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/rounded_corner"
+        android:text="miFamily"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/visitors"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/report"
+        android:layout_alignLeft="@+id/family"
+        android:layout_alignStart="@+id/family"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Invite Visitors"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/report"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/visitors"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/visitors"
+        android:layout_marginBottom="85dp"
+        android:background="@drawable/rounded_corner"
+        android:text="miVisitors"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+</RelativeLayout>
